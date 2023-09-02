@@ -40,6 +40,7 @@ double saldoCliente2 = 621.52;
 Cliente cliente1 = new Cliente();
 cliente1.nome = "Marco Carvalho";
 cliente1.saldo = 546.85;
+cliente1.aumentarSaldo(100);
 
 Cliente cliente2 = new Cliente();
 cliente2.nome = "Maria Aparecida";
@@ -50,6 +51,8 @@ cliente3.nome = "Fulano da Silva";
 
 Console.WriteLine(cliente1.nome);
 Console.WriteLine(cliente3.nome);
+
+Console.WriteLine("Saldo: " + cliente1.saldo);
 
 
 
